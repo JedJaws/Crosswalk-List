@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC70BF3327E2D98900A57A19 /* CrossWalkListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF3227E2D98900A57A19 /* CrossWalkListApp.swift */; };
+		EC70BF3527E2D98900A57A19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF3427E2D98900A57A19 /* ContentView.swift */; };
+		EC70BF3727E2D98A00A57A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70BF3627E2D98A00A57A19 /* Assets.xcassets */; };
+		EC70BF3A27E2D98A00A57A19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70BF3927E2D98A00A57A19 /* Preview Assets.xcassets */; };
+		EC70BF4427E2D98A00A57A19 /* CrossWalkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */; };
+		ECC9AE5927E9596900A30730 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5827E9596900A30730 /* Modifier.swift */; };
+		ECC9AE5D27E98A6D00A30730 /* CrosswalkInfoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */; };
+		ECC9AE5F27E9A16C00A30730 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5E27E9A16C00A30730 /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC70BF4027E2D98A00A57A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC70BF2727E2D98900A57A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC70BF2E27E2D98900A57A19;
+			remoteInfo = CrossWalkList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC70BF2F27E2D98900A57A19 /* CrossWalkList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWalkList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70BF3227E2D98900A57A19 /* CrossWalkListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWalkListApp.swift; sourceTree = "<group>"; };
+		EC70BF3427E2D98900A57A19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC70BF3627E2D98A00A57A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC70BF3927E2D98A00A57A19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossWalkListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWalkListTests.swift; sourceTree = "<group>"; };
+		ECC9AE5827E9596900A30730 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkInfoViews.swift; sourceTree = "<group>"; };
+		ECC9AE5E27E9A16C00A30730 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC70BF2C27E2D98900A57A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70BF3C27E2D98A00A57A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC70BF2627E2D98900A57A19 = {
+			isa = PBXGroup;
+			children = (
+				EC70BF3127E2D98900A57A19 /* CrossWalkList */,
+				EC70BF4227E2D98A00A57A19 /* CrossWalkListTests */,
+				EC70BF3027E2D98900A57A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC70BF3027E2D98900A57A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC70BF2F27E2D98900A57A19 /* CrossWalkList.app */,
+				EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC70BF3127E2D98900A57A19 /* CrossWalkList */ = {
+			isa = PBXGroup;
+			children = (
+				EC70BF3227E2D98900A57A19 /* CrossWalkListApp.swift */,
+				EC70BF3427E2D98900A57A19 /* ContentView.swift */,
+				ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */,
+				ECC9AE5827E9596900A30730 /* Modifier.swift */,
+				ECC9AE5E27E9A16C00A30730 /* Settings.swift */,
+				EC70BF3627E2D98A00A57A19 /* Assets.xcassets */,
+				EC70BF3827E2D98A00A57A19 /* Preview Content */,
+			);
+			path = CrossWalkList;
+			sourceTree = "<group>";
+		};
+		EC70BF3827E2D98A00A57A19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC70BF3927E2D98A00A57A19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC70BF4227E2D98A00A57A19 /* CrossWalkListTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */,
+			);
+			path = CrossWalkListTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC70BF2E27E2D98900A57A19 /* CrossWalkList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC70BF5327E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkList" */;
+			buildPhases = (
+				EC70BF2B27E2D98900A57A19 /* Sources */,
+				EC70BF2C27E2D98900A57A19 /* Frameworks */,
+				EC70BF2D27E2D98900A57A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossWalkList;
+			productName = CrossWalkList;
+			productReference = EC70BF2F27E2D98900A57A19 /* CrossWalkList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC70BF3E27E2D98A00A57A19 /* CrossWalkListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC70BF5627E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkListTests" */;
+			buildPhases = (
+				EC70BF3B27E2D98A00A57A19 /* Sources */,
+				EC70BF3C27E2D98A00A57A19 /* Frameworks */,
+				EC70BF3D27E2D98A00A57A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC70BF4127E2D98A00A57A19 /* PBXTargetDependency */,
+			);
+			name = CrossWalkListTests;
+			productName = CrossWalkListTests;
+			productReference = EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC70BF2727E2D98900A57A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC70BF2E27E2D98900A57A19 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC70BF3E27E2D98A00A57A19 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC70BF2E27E2D98900A57A19;
+					};
+				};
+			};
+			buildConfigurationList = EC70BF2A27E2D98900A57A19 /* Build configuration list for PBXProject "CrossWalkList" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC70BF2627E2D98900A57A19;
+			productRefGroup = EC70BF3027E2D98900A57A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC70BF2E27E2D98900A57A19 /* CrossWalkList */,
+				EC70BF3E27E2D98A00A57A19 /* CrossWalkListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC70BF2D27E2D98900A57A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70BF3A27E2D98A00A57A19 /* Preview Assets.xcassets in Resources */,
+				EC70BF3727E2D98A00A57A19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70BF3D27E2D98A00A57A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC70BF2B27E2D98900A57A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70BF3527E2D98900A57A19 /* ContentView.swift in Sources */,
+				EC70BF3327E2D98900A57A19 /* CrossWalkListApp.swift in Sources */,
+				ECC9AE5D27E98A6D00A30730 /* CrosswalkInfoViews.swift in Sources */,
+				ECC9AE5927E9596900A30730 /* Modifier.swift in Sources */,
+				ECC9AE5F27E9A16C00A30730 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70BF3B27E2D98A00A57A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70BF4427E2D98A00A57A19 /* CrossWalkListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC70BF4127E2D98A00A57A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC70BF2E27E2D98900A57A19 /* CrossWalkList */;
+			targetProxy = EC70BF4027E2D98A00A57A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC70BF5127E2D98A00A57A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC70BF5227E2D98A00A57A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC70BF5427E2D98A00A57A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossWalkList/Preview Content\"";
+				DEVELOPMENT_TEAM = B2237HP63K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC70BF5527E2D98A00A57A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossWalkList/Preview Content\"";
+				DEVELOPMENT_TEAM = B2237HP63K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC70BF5727E2D98A00A57A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossWalkList.app/CrossWalkList";
+			};
+			name = Debug;
+		};
+		EC70BF5827E2D98A00A57A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossWalkList.app/CrossWalkList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC70BF2A27E2D98900A57A19 /* Build configuration list for PBXProject "CrossWalkList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70BF5127E2D98A00A57A19 /* Debug */,
+				EC70BF5227E2D98A00A57A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC70BF5327E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70BF5427E2D98A00A57A19 /* Debug */,
+				EC70BF5527E2D98A00A57A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC70BF5627E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70BF5727E2D98A00A57A19 /* Debug */,
+				EC70BF5827E2D98A00A57A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC70BF2727E2D98900A57A19 /* Project object */;
+}
